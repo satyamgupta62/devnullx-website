@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "title": "Design System: DevNullX",
+  "extensions": {
+    "colorMeta": {
+      "void": { "role": "neutral", "canonical": "#050607" },
+      "carbon": { "role": "neutral", "canonical": "#0B0D10" },
+      "graphite": { "role": "neutral", "canonical": "#111419" },
+      "line": { "role": "neutral", "canonical": "#232830" },
+      "line-strong": { "role": "neutral", "canonical": "#444A55" },
+      "paper": { "role": "neutral", "canonical": "#F5F7FA" },
+      "secondary-text": { "role": "neutral", "canonical": "#A0A7B2" },
+      "quiet-text": { "role": "neutral", "canonical": "#78818E" },
+      "paper-line": { "role": "neutral", "canonical": "#C9CDD1" },
+      "paper-hover": { "role": "neutral", "canonical": "#E6E9EC" },
+      "paper-quiet": { "role": "neutral", "canonical": "#E2E5E7" },
+      "safety-coral": { "role": "primary", "canonical": "#FF563D" },
+      "safety-coral-deep": { "role": "primary", "canonical": "#C92F1D" },
+      "safety-coral-soft": { "role": "primary", "canonical": "#FF8C7A" },
+      "relay-violet": { "role": "secondary", "canonical": "#7868FF" },
+      "relay-violet-soft": { "role": "secondary", "canonical": "#A99FFF" },
+      "telemetry-cyan": { "role": "tertiary", "canonical": "#47D7FF" },
+      "healthy-mint": { "role": "tertiary", "canonical": "#50E3A4" },
+      "instrument-mid": { "role": "neutral", "canonical": "#2C333A" },
+      "instrument-edge": { "role": "neutral", "canonical": "#3A434C" },
+      "light-surface-text": { "role": "neutral", "canonical": "#4F555C" }
+    },
+    "motion": [
+      {
+        "name": "state",
+        "value": "160ms cubic-bezier(0.2, 0.8, 0.2, 1)"
+      },
+      {
+        "name": "narrative",
+        "value": "700ms cubic-bezier(0.16, 1, 0.3, 1)"
+      }
+    ]
+  },
+  "narrative": {
+    "northStar": "The Living Control Plane — Disciplined Futurism",
+    "rules": [
+      "One dominant light event per viewport",
+      "Glow always carries product meaning",
+      "Evidence is staged rather than tiled",
+      "Current capability and roadmap remain visibly separate"
+    ]
+  }
+}
